@@ -1,0 +1,16 @@
+Haz un fork del repositorio que te interesa.
+Descarga la última versión de tu código con git clone [REPOSITORY URL] para crear un nuevo repositorio. 
+Si ya has clonado un repositorio, pero no está actualizado, 
+puedes descargar los últimos cambios a tu ordenador utilizando el comando git pull.
+A continuación, trabaja y edita los archivos de forma local.
+Una vez que hayas terminado de editar los archivos, puedes Stage (preparar) tus cambios con el comando git add. 
+El staging analiza la diferencia entre tu trabajo y el estado original del repositorio y 
+extrae solo las partes que cambiaste. 
+Estas diferencias se vuelven "staged", o sea, se guardan en preparación para enviar solo tu trabajo, 
+en lugar de todo el repositorio, de vuelta al servidor de GitHub.
+Confirma los cambios en el historial del repositorio con git commit. 
+Esto escribe de forma permanente tus cambios en el historial del repositorio. 
+Dado que los commits se rastrean históricamente, se pueden revertir superponiéndolos entre sí.
+Empuja los cambios a GitHub con git push. 
+Esto sobrescribe lo que hay en el servidor de GitHub con los cambios de tu commit. 
+Una vez que se complete el proceso, tu computadora y el servidor GitHub se sincronizarán.
